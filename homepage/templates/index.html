@@ -16,6 +16,7 @@
 
 -->
 <!DOCTYPE html>
+{% load cms_tags sekizai_tags %}
 <html lang="en">
 
 <head>
@@ -36,6 +37,7 @@
   <link href=" {% static '/assets/css/now-ui-kit.css' %}" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project 
   <link href=" ./assets/demo/demo.css" rel="stylesheet" />-->
+  {% render_block "css" %}
 </head>
 
 <body class="index-page sidebar-collapse">
@@ -1364,6 +1366,7 @@
       }
     }
   </script>
+  {% render_block "js" %}
 </body>
 
 </html>
