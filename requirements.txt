@@ -8,6 +8,6 @@ Django>=1.7
 
 # Optional, recommended packages
 Pillow>=2
-django-filer==0.9.8
+django-filer==3.5.0
 cmsplugin-filer==0.10.1
 django-reversion==1.8
